@@ -233,3 +233,11 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch MAGE.py \
 - The exported code is intentionally focused on the original MAGE workflow rather than Qwen3-specific variants.
 - Several scripts still use research-environment defaults and hardcoded paths. Expect to edit those paths for a clean public release.
 - The import style assumes you run commands from the project root so that local modules like `utils.py`, `multi_reward_models.py`, and `inference_tools/` are importable.
+
+## License
+
+MAGE is released under the MIT License.
+
+You are free to use, modify, and distribute this software, including for commercial purposes, provided that the original copyright and license notices are retained.
+
+For more details, please refer to the [LICENSE](LICENSE) file.
